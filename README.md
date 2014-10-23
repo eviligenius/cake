@@ -1,3 +1,18 @@
+/* This program is a learning tool for cakephp by building an image hosting site */
+/* The program run on 'localhost'. */
+
+/* The main index can be accessed from-> http://localhost/cake/images */
+/*This is still in progress, please use a running cakephp , & do database configuration to use this program */
+/* Database tables can be found at mysqltables file */
+
+
+
+
+
+
+
+
+
 CakePHP
 =======
 
