@@ -1,4 +1,4 @@
-Create table cakephp;
+Create database cakephp;
 
 CREATE TABLE IF NOT EXISTS `images` (
   `image_id` int(11) NOT NULL AUTO_INCREMENT,
