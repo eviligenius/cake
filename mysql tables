@@ -1,0 +1,18 @@
+Create table cakephp;
+
+CREATE TABLE IF NOT EXISTS `images` (
+  `image_id` int(11) NOT NULL AUTO_INCREMENT,
+  `image_caption` varchar(250) DEFAULT NULL,
+  `image_cover` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`image_id`)
+) DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+
+)
+
+CREATE TABLE IF NOT EXISTS `admins` (
+  `admin_id` int(11) NOT NULL AUTO_INCREMENT,
+  `username` varchar(250) DEFAULT NULL,
+  `password` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`admin_id`)
+) DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
