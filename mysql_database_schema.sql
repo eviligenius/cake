@@ -2,6 +2,12 @@
 --Schema for the cakephp framework exercise MySQL database server
 
 
+CREATE DATABASE cakephp;
+
+--if want to grant, use line below.
+--grant all privileges on cakephp.* to ‘cakephp’@’localhost’ identified by ‘abc123’;
+
+
 CREATE TABLE IF NOT EXISTS `images` (
   `image_id` int(11) NOT NULL AUTO_INCREMENT,
   `image_caption` varchar(250) DEFAULT NULL,
